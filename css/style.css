@@ -50,7 +50,8 @@ body {
 .heading-tertiary {
   position: relative;
   font-weight: 700;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  padding: 0 20px; }
 
 .heading-fourth {
   font-size: 72px;
@@ -142,17 +143,19 @@ body {
 .column-box {
   background-color: #fff;
   font-size: 1.5rem;
-  padding: 28px;
+  padding: 12px;
   margin: 50px 0px;
   border-radius: .3rem;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   width: 360px; }
   .column-box-text {
     font-size: 16px;
-    line-height: 180%; }
+    line-height: 180%;
+    padding: 0 20px; }
   .column-box-a {
     font-size: 16px;
-    transition: all .3s; }
+    transition: all .3s;
+    padding: 0 20px; }
     .column-box-a:hover {
       transform: translateY(-2px);
       cursor: pointer;

@@ -2,23 +2,26 @@
     background-color: $color-white;
     font-size: 1.5rem;
     // padding: 2rem 7rem 4rem 7rem;
-    padding: 28px;
+    padding: 12px;
     // height: 378px;
     margin:  50px 0px;
     border-radius: .3rem;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
     width: 360px;
 
+
     
     &-text {
         font-size: 16px;
         // width: 300px;
         line-height: 180%;
+        padding: 0 20px;
     }
 
     &-a {
         font-size: 16px;
         transition: all .3s;
+        padding: 0 20px;
 
         &:hover {
             transform: translateY(-2px);
