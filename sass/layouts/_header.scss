@@ -3,6 +3,7 @@
     height: 95vh;
     position: relative;
     background: linear-gradient(0deg, rgba(45, 156, 219, 0.7), rgba(45, 156, 219, 0.7));
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
 
     &-text-box { 
         position: absolute;
