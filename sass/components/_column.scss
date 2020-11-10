@@ -1,0 +1,39 @@
+.column-box {
+    background-color: $color-white;
+    font-size: 1.5rem;
+    padding: 2rem 3rem 4rem 3rem;
+    margin:  50px 30px;
+    text-align: center;
+    border-radius: .3rem;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+
+
+    &-text {
+        font-size: 12px;
+        margin-top: 20px;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+    }
+
+    &-a {
+        font-size: 16px;
+        transition: all .3s;
+
+        &:hover {
+            transform: translateY(-2px);
+            cursor: pointer;
+            color: $color-primary;
+    }
+
+        a{
+            margin: 20px 0 20px 4px;
+            display: inline-block;
+            text-decoration: none;
+            color: $color-primary;
+            float: left;
+            text-decoration: none;
+
+        }
+    }
+
+}

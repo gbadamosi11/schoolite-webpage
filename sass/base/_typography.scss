@@ -1,0 +1,107 @@
+.heading-primary {
+    color: $color-white;     
+    text-transform: uppercase;
+
+    backface-visibility: hidden;
+    // margin-bottom: 6rem; 
+    width: 1000px;
+    margin-bottom: 40px;
+
+    &--main {
+        display: block;
+        font-size: 50px; 
+        font-weight: 600; 
+        word-spacing: 10px; 
+   }
+}
+
+.heading-secondary { 
+    font-size: 40px;
+    font-weight: 700;
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: $color-black;
+    // letter-spacing: .2rem; 
+    letter-spacing: 5px; 
+    text-align: center;
+
+    &--sub {
+        font-size: 40px;    
+        font-weight: 700;
+        display: inline-block;
+        -webkit-background-clip: text;
+        letter-spacing: 2px;
+        padding: 0 250px;
+        text-align: center;     
+        line-height: 62px;
+        font-style: normal;
+        display: inline-block;
+    }
+
+    &--small {
+        font-size: 40px;
+        font-weight: 700;
+        display: inline-block;
+        -webkit-background-clip: text;
+        letter-spacing: 2px;
+        padding: 0 500px;
+        text-align: center;     
+        line-height: 62px;
+        font-style: normal;
+        display: inline-block;
+    }
+}
+
+.heading-tertiary {
+    margin: 0;  
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.heading-fourth {
+    font-size: 72px;
+    color: $color-white;
+    font-weight: 600;
+    margin: 10px 0;
+
+    &-1 {
+        color: $color-black;
+        font-size: 32px;
+        width: 300px;
+        text-align: center;
+    }
+    &-2{
+        display: block;
+        width: 300px;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    &-3 {
+        color: $color-black;
+        margin: 10px 0;
+        font-size: 32px;
+    }
+
+    &-pg {
+        font-size: 16px;
+        font-weight: 400;
+        width: 100%;
+        color: $color-white;
+        text-align: center;
+
+        &-1 {
+            color: $color-black;
+            width: 265px;
+        }
+
+        &-2{
+            width: 300px;  
+        }
+
+        &-3 {
+            color: $color-black;
+            width: 200px;
+        }
+    }
+}   

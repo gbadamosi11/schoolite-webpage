@@ -1,0 +1,23 @@
+.header {
+    color: $color-white;
+    height: 95vh;
+    position: relative;
+    background: linear-gradient(0deg, rgba(45, 156, 219, 0.7), rgba(45, 156, 219, 0.7));
+
+    &-text-box { 
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+    }
+
+    &-paragraph {
+        font-size: 16px;
+        height: 85px;
+        left: 291px;
+        top: 382px;
+
+    }
+}
