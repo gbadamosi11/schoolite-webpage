@@ -53,9 +53,13 @@
 }
 
 .heading-tertiary {
-    margin: 0;  
+    position: relative;
+    left: 50px;
     font-weight: 700;
     text-transform: uppercase;
+    width: 126px;
+    height: 44px;
+    padding-top: 50px;
 }
 
 .heading-fourth {

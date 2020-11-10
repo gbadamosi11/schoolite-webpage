@@ -51,9 +51,13 @@ body {
     display: inline-block; }
 
 .heading-tertiary {
-  margin: 0;
+  position: relative;
+  left: 50px;
   font-weight: 700;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  width: 126px;
+  height: 44px;
+  padding-top: 50px; }
 
 .heading-fourth {
   font-size: 72px;
@@ -147,8 +151,8 @@ body {
 .column-box {
   background-color: #fff;
   font-size: 1.5rem;
-  padding: 2rem 3rem 4rem 3rem;
-  margin: 50px 30px;
+  height: 378px;
+  margin: 50px 0px;
   text-align: center;
   border-radius: .3rem;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
@@ -156,7 +160,10 @@ body {
     font-size: 12px;
     margin-top: 20px;
     word-spacing: 2px;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    width: 296px;
+    position: absolute;
+    padding: 0 32px; }
   .column-box-a {
     font-size: 16px;
     transition: all .3s; }
@@ -165,12 +172,14 @@ body {
       cursor: pointer;
       color: #29ABE2; }
     .column-box-a a {
-      margin: 20px 0 20px 4px;
+      margin: 200px 0 0 0;
       display: inline-block;
       text-decoration: none;
       color: #29ABE2;
-      float: left;
-      text-decoration: none; }
+      text-decoration: none;
+      width: 94px;
+      height: 26px;
+      padding-right: 200px; }
 
 .form {
   position: relative; }
@@ -221,19 +230,19 @@ body {
   .row [class^="col-"] {
     float: left; }
     .row [class^="col-"]:not(:last-child) {
-      margin-right: 2rem; }
+      margin-right: 24px; }
   .row .col-1-of-2 {
-    width: calc((100% - 2rem) / 2); }
+    width: calc((100% - 24px) / 2); }
   .row .col-1-of-3 {
-    width: calc((100% - 2 * 2rem) / 3); }
+    width: calc((100% - 2 * 24px) / 3); }
   .row .col-2-of-3 {
-    width: calc(2 * ((100% - 2 * 2rem) / 3) + 2rem); }
+    width: calc(2 * ((100% - 2 * 24px) / 3) + 24px); }
   .row .col-1-of-4 {
-    width: calc((10 - 3 * 2rem) / 4); }
+    width: calc((10 - 3 * 24px) / 4); }
   .row .col-2-of-4 {
-    width: calc(2 * ((100% - 3 * 2rem) / 4) + 2rem); }
+    width: calc(2 * ((100% - 3 * 24px) / 4) + 24px); }
   .row .col-3-of-4 {
-    width: calc(3 * ((100% - 3 * 2rem) / 4) + 2 * 2rem); }
+    width: calc(3 * ((100% - 3 * 24px) / 4) + 2 * 24px); }
 
 .header {
   color: #fff;
@@ -308,7 +317,7 @@ body {
   background-color: #F2F2F2;
   margin-top: -50vh;
   box-sizing: border-box;
-  padding: 100px 50px 200px 50px;
+  padding: 100px 76px 200px 76px;
   margin: 0; }
   .section-story::after {
     content: "";
