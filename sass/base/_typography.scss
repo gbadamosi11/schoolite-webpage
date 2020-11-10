@@ -54,12 +54,8 @@
 
 .heading-tertiary {
     position: relative;
-    left: 50px;
     font-weight: 700;
     text-transform: uppercase;
-    width: 126px;
-    height: 44px;
-    padding-top: 50px;
 }
 
 .heading-fourth {
@@ -72,13 +68,11 @@
         color: $color-black;
         font-size: 32px;
         width: 300px;
-        text-align: center;
     }
     &-2{
         display: block;
         width: 300px;
-        font-size: 32px;
-        text-align: center;
+        font-size: 45px;
     }
 
     &-3 {
@@ -91,21 +85,19 @@
         font-size: 16px;
         font-weight: 400;
         width: 100%;
-        color: $color-white;
-        text-align: center;
+        color: $color-white; 
 
         &-1 {
             color: $color-black;
             width: 265px;
+            margin: 5px;
         }
 
         &-2{
-            width: 300px;  
-        }
-
-        &-3 {
-            color: $color-black;
-            width: 200px;
+            width: 377px;  
+            font-size: 16px;
+            font-weight: 100;
+            margin: 4px;
         }
     }
 }   

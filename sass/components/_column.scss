@@ -2,21 +2,18 @@
     background-color: $color-white;
     font-size: 1.5rem;
     // padding: 2rem 7rem 4rem 7rem;
-    height: 378px;
+    padding: 28px;
+    // height: 378px;
     margin:  50px 0px;
-    text-align: center;
     border-radius: .3rem;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .15); 
+    width: 360px;
 
-
+    
     &-text {
-        font-size: 12px;
-        margin-top: 20px;
-        word-spacing: 2px;
-        letter-spacing: 1px;
-        width: 296px;
-        position: absolute;
-        padding: 0 32px;
+        font-size: 16px;
+        width: 300px;
+        line-height: 180%;
     }
 
     &-a {
@@ -30,7 +27,7 @@
     }
 
         a{
-            margin: 200px 0 0 0;
+            margin: 50px 10px 0 0;
             display: inline-block;
             text-decoration: none;
             color: $color-primary;

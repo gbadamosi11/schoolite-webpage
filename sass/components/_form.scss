@@ -2,13 +2,25 @@
    position: relative;
    
     &-parag {
+        background-color: transparent;
         width: 407px;
         list-style: none;
-        color: $color-grey-light;
         font-size: 16px;
-        padding-bottom: 20px;
+        color: $color-grey-light;
+        padding-bottom: 10px;
+        border: none;
         border-bottom: 1px solid $color-grey-light;
+        outline: none;
+
+        &::placeholder {
+            color: $color-grey-light;
+        }
+
+        &:not(:last-child) {
+            margin-bottom: 20px;
+        }
     }
+
 
     &-btn {
         position: absolute;
