@@ -90,7 +90,7 @@
         }
 
         @include respond(phone) {
-            width: 50%;
+            width: 100%;
             display: inline-block;
             font-size: 2rem; 
             font-weight: 600; 
