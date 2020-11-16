@@ -111,7 +111,7 @@ body {
         display: inline-block;
         font-size: 2rem;
         font-weight: 600;
-        padding: 0 55rem;
+        padding: 0 30rem;
         letter-spacing: .2rem;
         margin: 0 auto;
         text-align: center;
@@ -399,47 +399,48 @@ body {
         left: 20rem;
         top: 30rem; } }
 
-.navigation-img {
-  text-align: center;
-  display: inline-block;
-  margin: 3rem 0 3rem 6.7rem; }
-  @media (max-width: 56.25em) {
-    .navigation-img {
-      text-align: center;
-      display: inline-block;
-      margin: 2rem 0 2rem 5rem;
-      height: 4rem;
-      width: 10rem; } }
-  @media (max-width: 37.5em) {
-    .navigation-img {
-      text-align: center;
-      display: inline-block;
-      margin: 1.5rem 0 1rem 4rem;
-      height: 4rem;
-      width: 10rem; } }
-
-.navigation-list {
-  text-align: center;
-  vertical-align: top;
-  display: inline-block;
-  float: right; }
-  .navigation-list li {
-    list-style-type: none;
-    padding: 1rem;
-    height: 2.4rem;
-    margin-top: .4rem;
-    margin-bottom: .4rem;
-    display: inline; }
-  .navigation-list a {
-    color: #333;
-    font-size: 1.6rem;
-    text-decoration: none;
-    line-height: 7rem;
-    padding: .5rem 1.5rem;
-    opacity: 0.7;
-    transition: all .4s; }
-    .navigation-list a:hover {
-      color: #29ABE2; }
+.navigation {
+  position: fixed; }
+  .navigation-img {
+    text-align: center;
+    display: inline-block;
+    margin: 3rem 0 3rem 6.7rem; }
+    @media (max-width: 56.25em) {
+      .navigation-img {
+        text-align: center;
+        display: inline-block;
+        margin: 2rem 0 2rem 5rem;
+        height: 4rem;
+        width: 10rem; } }
+    @media (max-width: 37.5em) {
+      .navigation-img {
+        text-align: center;
+        display: inline-block;
+        margin: 1.5rem 0 1rem 4rem;
+        height: 4rem;
+        width: 10rem; } }
+  .navigation-list {
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    float: right; }
+    .navigation-list li {
+      list-style-type: none;
+      padding: 1rem;
+      height: 2.4rem;
+      margin-top: .4rem;
+      margin-bottom: .4rem;
+      display: inline; }
+    .navigation-list a {
+      color: #333;
+      font-size: 1.6rem;
+      text-decoration: none;
+      line-height: 7rem;
+      padding: .5rem 1.5rem;
+      opacity: 0.7;
+      transition: all .4s; }
+      .navigation-list a:hover {
+        color: #29ABE2; }
 
 #blue {
   color: #29ABE2;
