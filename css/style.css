@@ -108,11 +108,11 @@ body {
         display: inline-block; } }
     @media (max-width: 37.5em) {
       .heading-secondary--small {
-        width: 20rem;
+        width: 50%;
         display: inline-block;
         font-size: 2rem;
         font-weight: 600;
-        padding: 0;
+        padding: 0 25rem;
         letter-spacing: .2rem;
         margin: 0;
         text-align: center;
