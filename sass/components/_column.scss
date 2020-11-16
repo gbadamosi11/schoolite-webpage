@@ -4,40 +4,54 @@
     // padding: 2rem 7rem 4rem 7rem;
     padding: 12px;
     // height: 378px;
-    margin:  50px 0px;
+    margin: 5rem 0;
     border-radius: .3rem;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
-    width: 360px;
+    width: 34rem;
+
+    &:not(:last-child) {
+        margin-right: 20rem;
+    }
+
+    @include respond(tab-port) {
+        width: 40rem;
+        margin: 4rem auto;
+    }
+
+    @include respond(phone) {
+        width: 30rem;
+        margin: 3rem auto;
+    }
 
 
     
     &-text {
-        font-size: 16px;
+        font-size: 1.6rem;
         // width: 300px;
         line-height: 180%;
-        padding: 0 20px;
+        padding: 0 2rem;
     }
 
     &-a {
-        font-size: 16px;
+        font-size: 1.6rem;
         transition: all .3s;
-        padding: 0 20px;
+        padding: 0 2rem;
 
         &:hover {
-            transform: translateY(-2px);
+            transform: translateY(-.2rem);
             cursor: pointer;
             color: $color-primary;
     }
 
         a{
-            margin: 50px 10px 0 0;
+            margin: 5rem 1rem 0 0;
             display: inline-block;
             text-decoration: none;
             color: $color-primary;
             text-decoration: none;
-            width: 94px;
-            height: 26px;
-            padding-right: 200px;
+            width: 9.4rem;
+            height: 2.6rem;
+            padding-right: 20rem;
         }
     }
 

@@ -7,6 +7,16 @@
     background-image: linear-gradient(0deg, rgba(45, 156, 219, 0.7), rgba(45, 156, 219, 0.7)), url(../img/heading-posters.jpg);
     clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
 
+    @include respond(tab-port) {
+        height: 60vh;
+        clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
+    }
+
+    @include respond(phone) {
+        height: 50vh;
+        clip-path: polygon(0 0, 100% 0, 100% 45vh, 0 100%);
+    }
+
     &-text-box { 
         position: absolute;
         top: 50%;
@@ -17,10 +27,17 @@
     }
 
     &-paragraph {
-        font-size: 16px;
-        height: 85px;
-        left: 291px;
-        top: 382px;
+        font-size: 1.6rem;
+        height: 8.5rem;
+        left: 29.1rem;
+        top: 38.2rem;
 
+        @include respond(phone) {
+            display: block;
+            font-size: 1rem; 
+            height: 5rem;
+            left: 20rem;
+            top: 30rem;
+        }
     }
 }

@@ -4,51 +4,102 @@
 
     backface-visibility: hidden;
     // margin-bottom: 6rem; 
-    width: 1000px;
-    margin-bottom: 40px;
+    width: 100rem;
+    margin-bottom: 4rem;
 
     &--main {
         display: block;
-        font-size: 50px; 
+        font-size: 5rem; 
         font-weight: 600; 
-        word-spacing: 10px; 
-   }
+        word-spacing: 1rem; 
+
+        @include respond(tab-port) {
+            display: block;
+            font-size: 4rem; 
+            font-weight: 600; 
+            word-spacing: 1rem; 
+        }
+    
+        @include respond(phone) {
+            display: block;
+            font-size: 3rem; 
+            font-weight: 600; 
+            word-spacing: 1rem; 
+        }
+    }
 }
 
 .heading-secondary { 
-    font-size: 40px;
-    font-weight: 700;
-    display: inline-block;
     // -webkit-background-clip: text;
     color: $color-black;
     // letter-spacing: .2rem; 
-    letter-spacing: 5px; 
     text-align: center;
 
+
     &--sub {
-        font-size: 40px;    
+        font-size: 4rem;    
         font-weight: 700;
-        display: inline-block;
         // -webkit-background-clip: text;
-        letter-spacing: 2px;
-        padding: 0 250px;
-        text-align: center;     
-        line-height: 62px;
-        font-style: normal;
-        display: inline-block;
+        line-height: 6.2rem;
+        font-style: normal; 
+
+        @include respond(tab-port) {
+            display: block;
+            font-size: 3rem; 
+            font-weight: 600; 
+            word-spacing: 1rem; 
+        }
+
+        @include respond(phone) {
+            display: block;
+            font-size: 2rem; 
+            font-weight: 600; 
+        }
     }
 
     &--small {
-        font-size: 40px;
+        font-size: 4rem;
         font-weight: 700;
-        display: inline-block;
         // -webkit-background-clip: text;
-        letter-spacing: 2px;
-        padding: 0 500px;
+        letter-spacing: .2rem;
+        padding: 0 50rem;
         text-align: center;     
-        line-height: 62px;
+        line-height: 6.2rem;
         font-style: normal;
         display: inline-block;
+
+        @include respond(tab-land) {
+            display: block;
+            font-weight: 600; 
+            letter-spacing: .2rem;
+            padding: 0 60rem;
+            text-align: center;     
+            line-height: 6.2rem;
+            display: inline-block;
+        }
+
+        @include respond(tab-port) {
+            display: block;
+            font-size: 3rem; 
+            font-weight: 600; 
+            letter-spacing: .2rem;
+            padding: 0 45rem;
+            text-align: center;     
+            line-height: 6.2rem;
+            display: inline-block;
+        }
+
+        @include respond(phone) {
+            display: inline-block;
+            font-size: 2rem; 
+            font-weight: 600; 
+            padding: 0 55rem;
+            letter-spacing: .2rem;
+            margin: 0 auto;
+            text-align: center;     
+            line-height: 6.2rem;
+            // display: block; 
+        }
     }
 }
 
@@ -56,49 +107,50 @@
     position: relative;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 50px 20px 0 20px;
+    padding: 5rem 2rem 0 2rem;
+    
 }
 
 .heading-fourth {
-    font-size: 72px;
+    font-size: 7.2rem;
     color: $color-white;
     font-weight: 600;
-    margin: 10px 0;
+    margin: 1rem 0;
 
     &-1 {
         color: $color-black;
-        font-size: 32px;
-        width: 300px;
+        font-size: 3.2rem;
+        width: 30rem;
     }
     &-2{
         display: block;
-        width: 300px;
-        font-size: 45px;
+        width: 30rem;
+        font-size: 4.5rem;
     }
 
     &-3 {
         color: $color-black;
-        margin: 10px 0;
-        font-size: 32px;
+        margin: 1rem 0;
+        font-size: 3.2rem;
     }
 
     &-pg {
-        font-size: 16px;
+        font-size: 1.6rem;
         font-weight: 400;
         width: 100%;
         color: $color-white; 
 
         &-1 {
             color: $color-black;
-            width: 265px;
-            margin: 5px;
+            width: 26.5rem;
+            margin: .5rem;
         }
 
         &-2{
-            width: 377px;  
-            font-size: 16px;
+            width: 37.7rem;  
+            font-size: 1.6rem;
             font-weight: 100;
-            margin: 4px;
+            margin: .4rem;
         }
     }
 }   

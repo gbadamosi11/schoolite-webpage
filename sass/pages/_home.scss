@@ -9,26 +9,26 @@
     background-color: $color-grey-light;
     margin-top: -50vh; 
     box-sizing: border-box;
-    padding:100px 76px 200px 76px;  
+    padding:10rem 7.6rem 20rem 7.6rem;  
     margin: 0;
 
 }
 
 .section-image {
     background-color: $color-white;
-    padding: 20rem 0;
+    // padding: 20rem 0;
     background-size: cover;
-    padding: 100px 50px 200px 50px; 
+    padding: 10rem 5rem 20rem 4rem; 
     margin-top: -10rem;
+    // width: 100%;
 }    
 
 .section-people {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/four.jpg);
     background-size: cover;
-    padding: 100px 30px 100px 30px; 
+    padding: 10rem 3rem 10rem 3rem; 
     margin: -10rem 0 10rem 0; 
     color: $color-white;
-    height: 40vh;
     position: relative;
     background-size: cover;
     background-position: top;
@@ -37,12 +37,6 @@
 .section-contact {
     background-color: $color-primary;
     background-size: cover;
-    padding: 100px 30px 100px 30px; 
+    padding: 10rem 3rem 10rem 3rem; 
     margin-top: -10rem; 
-}
-
-.footer {
-    background-color: $color-white;
-    background-size: cover;
-    padding: 100px 30px 70px 30px; 
 }

@@ -3,11 +3,11 @@
    
     &-parag {
         background-color: transparent;
-        width: 407px;
+        width: 40.7rem;
         list-style: none;
-        font-size: 16px;
+        font-size: 1.6rem;
         color: $color-grey-light;
-        padding-bottom: 10px;
+        padding-bottom: 1rem;
         border: none;
         border-bottom: 1px solid $color-grey-light;
         outline: none;
@@ -17,14 +17,14 @@
         }
 
         &:not(:last-child) {
-            margin-bottom: 20px;
+            margin-bottom: 2rem;
         }
     }
 
 
     &-btn {
         position: absolute;
-        top: 20px;
+        top: 2rem;
         left: 0;
     }
 }

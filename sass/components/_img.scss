@@ -1,11 +1,45 @@
 .img-box {
     background-color: rgba($color-white, .8);
-    padding: 10px 30px; 
+    padding: 1rem 2rem; 
     text-align: center;
     border-radius: .3rem;
-    height: 100px;
+    height: 10rem;
+
+    @include respond(tab-land) {
+        // width: 45rem;
+        margin: 4.5rem auto;
+        padding: 0;
+        text-align: center;
+        border-radius: .3rem;
+    }
+
+    @include respond(tab-port) {
+        width: 30rem;
+        margin: 4rem auto;
+        padding: 0; 
+        text-align: center;
+        border-radius: .3rem;
+        height: 10rem;
+    }
+
+    @include respond(phone) {
+        width: 20rem;
+        margin: 3rem auto;
+        padding: 0; 
+        text-align: center;
+        border-radius: .3rem;
+        height: 6rem;
+    }
 
     img {
         width: 100%;
+
+        // @include respond(tab-port) {
+        //     width: 0;
+        // }
+    
+        // @include respond(phone) {
+        //     width: 0;
+        // }
     }
 }
